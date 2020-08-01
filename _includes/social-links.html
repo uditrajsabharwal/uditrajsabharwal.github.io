@@ -1,0 +1,34 @@
+<div class="social-links">
+
+
+    {% if site.twitter %}
+        <a class="link" data-title="twitter.com/{{ site.twitter }}" href="https://twitter.com/{{ site.twitter }}" target="_blank">
+            <svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg>
+        </a>
+    {% endif %}
+
+
+    {% if site.linkedin %}
+        <a class="link" data-title="linkedin.com/in/{{ site.linkedin }}" href="https://www.linkedin.com/in/{{ site.linkedin }}" target="_blank">
+            <svg class="icon icon-linkedin"><use xlink:href="#icon-linkedin"></use></svg>
+        </a>
+    {% endif %}
+
+
+
+    {% if site.quora %}
+        <a class="link" data-title="quora.com/profile/{{ site.quora }}" href="https://www.quora.com/profile/{{ site.quora }}" target="_blank">
+            <svg class="icon icon-quora"><use xlink:href="#icon-quora"></use></svg>
+        </a>
+    {% endif %}
+
+
+
+    {% if site.medium %}
+        <a class="link" data-title="medium.com/@{{ site.medium }}" href="https://medium.com/@{{ site.medium }}" target="_blank">
+            <svg class="icon icon-medium"><use xlink:href="#icon-medium"></use></svg>
+        </a>
+    {% endif %}
+
+
+</div>

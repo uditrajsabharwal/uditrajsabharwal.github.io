@@ -1,0 +1,49 @@
+---
+# blog page must be named index.html and in its own folder to support pagination
+# https://jekyllrb.com/docs/pagination/
+layout: page
+title: Blog
+pagination:
+  enabled: true
+---
+<section class="list">
+	{% if site.posts.size == 0 %}
+		<p class="text-center">Nothing published yet!</p>
+	{% elsif site.pagination.enabled %}
+		{% for post in paginator.posts %}
+			{% if post.category == 'blog' %}
+				{% if post.hidden != true %}
+					{% include blog-post.html %}
+				{% endif %}
+			{% endif %}
+		{% endfor %}
+
+		{% include pagination.html%}
+	{% else %}
+		{% for post in site.posts %}
+			{% if post.category == 'blog' %}
+				{% if post.hidden != true %}
+					{% include blog-post.html %}
+				{% endif %}
+			{% endif %}
+		{% endfor %}
+	{% endif %}
+</section>
+
+<div id="archives">
+{% for category in site.categories %}
+  <div class="archive-group">
+    {% capture category_name %}{{ category | first }}{% endcapture %}
+    <div id="#{{ category_name | slugize }}"></div>
+    <p></p>
+
+    <h3 class="category-head">{{ category_name }}</h3>
+    <a name="{{ category_name | slugize }}"></a>
+    {% for post in site.categories[category_name] %}
+    <article class="archive-item">
+      <h4><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h4>
+    </article>
+    {% endfor %}
+  </div>
+{% endfor %}
+</div>
