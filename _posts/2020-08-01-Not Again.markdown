@@ -1,0 +1,44 @@
+---
+title: "Not Again"
+layout: post
+date: 2020-08-01 23:10
+tag: Poetry
+image:
+headerImage: false
+projects: true
+hidden: true # don't count this post in blog pagination
+description: "Poetry"
+category: Poetry
+author: Udit Raj Sabharwal
+externalLink: false
+---
+
+Dancing in a shadowy rain
+
+Prided with glory like the lion’s mane
+
+Just holding each other as close as you can
+
+Feeling the rain drops pour as they may
+
+And you only wish you could lay
+
+In the rain and forget everything
+
+And you both would just sing
+
+About your love and lust
+
+And your story could shake the earth’s crust
+
+You are madly in love and I see it now
+
+For when I know, I believe it
+
+And as I see it, I know it
+
+So as you dance in the rain
+
+I will go insane
+
+For I am in love with you again

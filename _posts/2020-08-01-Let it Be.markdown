@@ -1,0 +1,46 @@
+---
+title: "Let it Be"
+layout: post
+date: 2020-08-01 23:10
+tag: Poetry
+image:
+headerImage: false
+projects: true
+hidden: true # don't count this post in blog pagination
+description: "Poetry"
+category: Poetry
+author: Udit Raj Sabharwal
+externalLink: false
+---
+
+Let me write you a story
+
+Let me sing you a song
+
+Let me be by your side
+
+Let me run along
+
+Let us walk together
+
+In moonlights forever
+
+Let us dance in the rains
+
+And share our pains..
+
+Let me hold your hand
+
+Let us do things that are unplanned
+
+Let me never forget you
+
+Let us hope that we never have to start anew
+
+Let me love you forever
+
+Let me show you that life’s grayer
+
+Let me be
+
+Let it be..

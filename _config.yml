@@ -1,6 +1,6 @@
 # main text of home
 name: Udit Raj Sabharwal
-bio: Thought Leader | Management Consultant
+bio: Polymath
 
 # twitter summary info
 description: Udit Raj Sabharwal
@@ -55,7 +55,7 @@ quora: "udit-sabharwal-1"
 authors:
   Udit Raj Sabharwal:
     name: Udit Raj Sabharwal
-    bio: Thought Leader | Management Consultant
+    bio: Polymath
     external-image: false
     picture: assets/images/profile.jpg
     twitter: uditsabharwal93

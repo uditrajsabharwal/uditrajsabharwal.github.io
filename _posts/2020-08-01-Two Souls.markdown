@@ -1,0 +1,38 @@
+---
+title: "Two Souls"
+layout: post
+date: 2020-08-01 23:10
+tag: Poetry
+image:
+headerImage: false
+projects: true
+hidden: true # don't count this post in blog pagination
+description: "Poetry"
+category: Poetry
+author: Udit Raj Sabharwal
+externalLink: false
+---
+
+Who are you and whom am I?
+
+We are but two souls under this sky
+
+What is life and what is death?
+
+Each one sooner or later you would have met
+
+What is love and what is despair?
+
+For nothing in this world was ever fair
+
+What is right and what is wrong?
+
+To make a decision why do you take so long
+
+What is sin and what is virtue?
+
+When nothing in this world s true
+
+Who are you and whom am I?
+
+We are just two souls under this sky
